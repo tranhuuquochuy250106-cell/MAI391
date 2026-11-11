@@ -1,0 +1,45 @@
+{
+  "question": 3,
+  "data_version": "TV2_shared_v1",
+  "n_train": 7622,
+  "X_shape": [
+    7622,
+    2
+  ],
+  "y_shape": [
+    7622
+  ],
+  "theta_shape": [
+    2
+  ],
+  "theta_evaluation": [
+    0.0,
+    0.0
+  ],
+  "J_at_initial_theta": 103375.99908278672,
+  "MSE_at_initial_theta": 206751.99816557334,
+  "gradient_at_initial_theta": [
+    -454.38087116242446,
+    16.150470170582203
+  ],
+  "scaling": {
+    "mean_AT": 19.632864077669904,
+    "std_AT": 7.443696485468457,
+    "ddof": 0
+  },
+  "finite_difference_checks": 7,
+  "max_abs_error_toy": 1.514313119344024e-10,
+  "max_abs_error_train": 3.7598095303792434e-07,
+  "checks_passed": 24,
+  "optimizer_run": false,
+  "test_metrics_computed": false,
+  "input_sha256": {
+    "data/raw/Folds5x2_pp.xlsx": "ccd490981db2a2f079963b3d9f0aea30d9d338900a0285428dfc6385396f4651",
+    "data/processed/clean.csv": "c859b6d3991067096287342b3914f7e7ae1040169cbfed1f103f9544d72bca25",
+    "data/processed/train.csv": "47a188e7eb773ed0e49529a82ec68f9f44249dc083cbe56ee45a503350e17da1",
+    "data/processed/test.csv": "949593fb159b3a3b4c1186cf70484f763195644e7fb11a98acdd7d30d4c628a0",
+    "results/scaling.json": "4ed1eab99875a209e34dc520bcd896a363564635f0b8bd248b21a61064fe34df"
+  },
+  "source": "Core numerical functions copied unchanged from submitted TV3 linear_model.py.",
+  "scope": "Cost and gradient verification only. Initial cost is not an optimized-model result."
+}

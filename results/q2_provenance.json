@@ -1,0 +1,37 @@
+{
+  "question": 2,
+  "data_version": "TV2_shared_v1",
+  "analysis_split": "train",
+  "n_train": 7622,
+  "descriptive_std_ddof": 1,
+  "scaling_std_ddof_from_q1": 0,
+  "pearson_r": -0.9483521499322795,
+  "bin_width_degC": 4.0,
+  "bin_edges": [
+    0.0,
+    4.0,
+    8.0,
+    12.0,
+    16.0,
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0
+  ],
+  "n_binned": 7622,
+  "minimum_bin_n_for_plotted_trend": 30,
+  "n_in_sparse_bins": 1,
+  "rows_removed_in_q2": 0,
+  "model_fitted": false,
+  "shared_inputs_unchanged": true,
+  "input_sha256": {
+    "data/raw/Folds5x2_pp.xlsx": "ccd490981db2a2f079963b3d9f0aea30d9d338900a0285428dfc6385396f4651",
+    "data/processed/clean.csv": "c859b6d3991067096287342b3914f7e7ae1040169cbfed1f103f9544d72bca25",
+    "data/processed/train.csv": "47a188e7eb773ed0e49529a82ec68f9f44249dc083cbe56ee45a503350e17da1",
+    "data/processed/test.csv": "949593fb159b3a3b4c1186cf70484f763195644e7fb11a98acdd7d30d4c628a0",
+    "results/scaling.json": "4ed1eab99875a209e34dc520bcd896a363564635f0b8bd248b21a61064fe34df"
+  },
+  "source": "Adapted from TV2 EDA; corrected full-range binning and explicit reporting conventions."
+}

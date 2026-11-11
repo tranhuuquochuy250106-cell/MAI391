@@ -1,0 +1,14 @@
+{
+  "data_version": "TV2_shared_v1",
+  "n_train": 7622,
+  "split": "train",
+  "hessian_eigenvalues": [
+    0.9999999999999997,
+    1.0000000000000002
+  ],
+  "strict_stability_upper_bound": 1.9999999999999996,
+  "j_analytical": 14.592200259304864,
+  "runs_verified": 5,
+  "states_verified": 2587,
+  "verification": "PASS"
+}

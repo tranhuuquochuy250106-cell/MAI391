@@ -1,0 +1,27 @@
+item,value,note
+rows_raw,9568,Sheet1 của Folds5x2_pp.xlsx
+dtype_AT,float64,
+missing_AT,0,
+nonfinite_AT,0,
+dtype_V,float64,
+missing_V,0,
+nonfinite_V,0,
+dtype_AP,float64,
+missing_AP,0,
+nonfinite_AP,0,
+dtype_RH,float64,
+missing_RH,0,
+nonfinite_RH,0,
+dtype_PE,float64,
+missing_PE,0,
+nonfinite_PE,0,
+invalid_AT_range,0,"AT ngoài [-50,60] °C"
+invalid_PE_nonpositive,0,PE <= 0 MW
+invalid_RH_range,0,"RH ngoài [0,100.5] %"
+duplicate_rows_full5,41,trùng hoàn toàn cả 5 cột (giữ bản đầu)
+rows_with_repeated_AT,9070,AT lặp - KHÔNG loại
+outliers_removed,0,Không bỏ điểm cực trị
+rows_removed,41,"source_row bị loại: 2186,2423,2579,2898,3316,4238,4551,4579,4669,5278,5322,5469,5500,5617,5830,5935,5957,6010,6133,6229,6828,6885,7412,7606,7760,7771,7773,8107,8501,8525,8641,8687,8823,8884,9002,9099,9140,9149,9203,9347,9525"
+rows_clean,9527,
+rows_train,7622,
+rows_test,1905,

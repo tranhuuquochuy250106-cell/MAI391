@@ -1,0 +1,61 @@
+{
+  "run_id": "baseline",
+  "data_version": "TV2_shared_v1",
+  "is_mock_data": false,
+  "theta_initial": [
+    0.0,
+    0.0
+  ],
+  "theta_init": [
+    0.0,
+    0.0
+  ],
+  "learning_rate": 0.1,
+  "max_iter": 10000,
+  "tolerance": 1e-06,
+  "n_iter": 190,
+  "actual_iterations": 190,
+  "status": "converged",
+  "converged": true,
+  "stop_rule": "L2 norm of full-train gradient <= tolerance",
+  "stop_reason": "L2 norm of the full-train gradient <= tolerance",
+  "gradient_norm_final": 9.199643747175907e-07,
+  "divergence_rule": "J > 1e12 * max(J_initial, 1), or nonfinite gradient/candidate",
+  "baseline_choice": "alpha=0.1 fixed for a readable multi-step trajectory, not claimed to be fastest",
+  "n_train": 7622,
+  "n_test": 1905,
+  "history_index": "k means state after k accepted updates; step 0 is initial state",
+  "train_sha256": "47a188e7eb773ed0e49529a82ec68f9f44249dc083cbe56ee45a503350e17da1",
+  "test_sha256": "949593fb159b3a3b4c1186cf70484f763195644e7fb11a98acdd7d30d4c628a0",
+  "scaling_sha256": "4ed1eab99875a209e34dc520bcd896a363564635f0b8bd248b21a61064fe34df",
+  "experiment_runs": {
+    "baseline": {
+      "learning_rate": 0.1,
+      "n_iter": 190,
+      "status": "converged"
+    },
+    "small": {
+      "learning_rate": 0.01,
+      "n_iter": 1984,
+      "status": "converged"
+    },
+    "large": {
+      "learning_rate": 1.85,
+      "n_iter": 123,
+      "status": "converged"
+    },
+    "divergent": {
+      "learning_rate": 2.05,
+      "n_iter": 284,
+      "status": "diverged"
+    },
+    "one_step": {
+      "learning_rate": 1.0,
+      "n_iter": 1,
+      "status": "converged"
+    }
+  },
+  "optional_npz_fields": "source-row arrays, independent reference and four LR histories; never required for basic prediction",
+  "test_predictions_exported": true,
+  "test_metrics_computed": false
+}

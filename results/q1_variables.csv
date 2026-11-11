@@ -1,0 +1,6 @@
+variable,meaning,unit
+AT,Nhiệt độ môi trường TB theo giờ,°C
+V,Chân không xả (Exhaust Vacuum),cm Hg
+AP,Áp suất môi trường,mbar
+RH,Độ ẩm tương đối,%
+PE,Công suất điện ròng theo giờ,MW

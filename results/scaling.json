@@ -1,0 +1,17 @@
+{
+  "variable": "AT",
+  "target": "PE",
+  "mean_AT": 19.632864077669904,
+  "std_AT": 7.443696485468457,
+  "ddof": 0,
+  "seed": 42,
+  "test_fraction": 0.2,
+  "split_method": "numpy default_rng(seed).permutation trên clean.csv; giữ thứ tự source_row trong mỗi tập",
+  "n_clean": 9527,
+  "n_train": 7622,
+  "n_test": 1905,
+  "units": {
+    "AT": "°C",
+    "PE": "MW"
+  }
+}

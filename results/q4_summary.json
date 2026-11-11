@@ -1,0 +1,33 @@
+{
+  "question": 4,
+  "data_version": "TV2_shared_v1",
+  "status": "converged",
+  "n_iter": 190,
+  "history_states": 191,
+  "theta_initial": [
+    0.0,
+    0.0
+  ],
+  "theta_final_scaled": [
+    454.38087024304076,
+    -16.150470137903636
+  ],
+  "intercept_raw_MW": 496.9779838715895,
+  "slope_raw_MW_per_degC": -2.1696841306510137,
+  "J_initial": 103375.99908278672,
+  "J_final_train": 14.59220025930529,
+  "MSE_final_train": 29.184400518610573,
+  "gradient_l2_final": 9.199643747175906e-07,
+  "reference_theta_scaled": [
+    454.38087116242446,
+    -16.150470170582143
+  ],
+  "reference_J_train": 14.592200259304864,
+  "max_pred_difference_reference_train_MW": 9.976276942325057e-07,
+  "prediction_tolerance_MW": 0.001,
+  "max_history_cost_recalculation_error": 0.0,
+  "checks_passed_before_archive_check": 24,
+  "test_metrics_computed": false,
+  "scope": "Q4 training and handoff. Analytical oracle is an independent verification aid; Q5 derivation and comparison remain separate.",
+  "checks_passed": 27
+}

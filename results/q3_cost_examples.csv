@@ -1,0 +1,4 @@
+dataset,theta0,theta1,n,SSE,J_half_MSE,MSE,gradient0,gradient1
+two_point_hand_example,0.0,0.0,2,10.0,2.5,5.0,-2.0,-1.0
+two_point_hand_example_perfect,2.0,1.0,2,0.0,0.0,0.0,0.0,0.0
+shared_train_initialization_only,0.0,0.0,7622,1575863730.0180006,103375.99908278672,206751.99816557334,-454.38087116242446,16.150470170582203

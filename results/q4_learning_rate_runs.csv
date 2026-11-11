@@ -1,0 +1,6 @@
+run_id,learning_rate,theta0_initial,theta1_initial,max_iter,tolerance_gradient_l2,n_iter,status,converged,gradient_norm_final,J_initial,J_final,cost_gap_to_analytical,stop_reason,split
+baseline,0.1,0.0,0.0,10000,1e-06,190,converged,True,9.199643747175907e-07,103375.99908278672,14.59220025930529,4.263256414560601e-13,L2 norm of the full-train gradient <= tolerance,train
+small,0.01,0.0,0.0,10000,1e-06,1984,converged,True,9.952229316444761e-07,103375.99908278672,14.592200259305356,4.920508445138694e-13,L2 norm of the full-train gradient <= tolerance,train
+large,1.85,0.0,0.0,10000,1e-06,123,converged,True,9.467211082692914e-07,103375.99908278672,14.592200259305312,4.476419235288631e-13,L2 norm of the full-train gradient <= tolerance,train
+divergent,2.05,0.0,0.0,10000,1e-06,284,diverged,False,473647380.39812475,103375.99908278672,1.1217092047900278e+17,1.1217092047900277e+17,"Cost exceeded 1e12 * max(initial_cost, 1)",train
+one_step,1.0,0.0,0.0,10000,1e-06,1,converged,True,1.2832763801997805e-13,103375.99908278672,14.592200259304864,0.0,L2 norm of the full-train gradient <= tolerance,train

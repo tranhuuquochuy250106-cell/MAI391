@@ -1,0 +1,24 @@
+{
+  "data_version": "TV2_shared_v1",
+  "n_train": 7622,
+  "n_iter": 190,
+  "plotted_states": 191,
+  "theta_start": [
+    0.0,
+    0.0
+  ],
+  "theta_final": [
+    454.38087024304076,
+    -16.150470137903636
+  ],
+  "theta_analytical": [
+    454.38087116242446,
+    -16.150470170582143
+  ],
+  "j_start": 103375.99908278672,
+  "j_final": 14.59220025930529,
+  "j_analytical": 14.592200259304864,
+  "max_abs_saved_vs_recomputed_cost": 0.0,
+  "max_abs_surface_vs_recomputed_cost_on_path": 4.3655745685100555e-11,
+  "verification": "PASS"
+}

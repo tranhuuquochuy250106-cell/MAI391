@@ -1,0 +1,22 @@
+{
+  "data_version": "TV2_shared_v1",
+  "selection_metric": "validation MSE",
+  "validation_seed": 42,
+  "validation_fraction": 0.2,
+  "selected_degree": 2,
+  "full_train_scaling": {
+    "mean_AT": 19.632864077669904,
+    "std_AT": 7.443696485468457,
+    "mean_z_squared": 1.0,
+    "std_z_squared": 0.9857199389033411
+  },
+  "theta": [
+    454.38087024304076,
+    -15.936280224943367,
+    1.5352513130793213
+  ],
+  "full_train_iterations": 190,
+  "full_train_gradient_norm": 9.76687777514232e-07,
+  "test_MSE_reduction_percent": 8.598520750238215,
+  "verification": "PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "data_version": "TV2_shared_v1",
+  "n_train": 7622,
+  "n_test": 1905,
+  "gd_iterations": 190,
+  "warmup_per_method": 1,
+  "timed_fits_per_method": 30,
+  "numerical_thread_limit": 1,
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "scikit_learn": "1.7.2",
+  "verification": "PASS"
+}

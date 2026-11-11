@@ -1,0 +1,25 @@
+check,passed
+hand_predictions_at_zero,True
+hand_SSE_10_and_J_2point5,True
+hand_gradient_minus2_minus1,True
+perfect_predictions,True
+zero_cost_at_perfect_predictions,True
+zero_gradient_at_perfect_predictions,True
+"toy_finite_difference_[0.0, 0.0]",True
+"toy_finite_difference_[0.7, -0.3]",True
+"toy_finite_difference_[-2.0, 4.0]",True
+"toy_finite_difference_[2.0, 1.0]",True
+shared_training_shapes,True
+intercept_column_is_one,True
+AT_only_standardized_feature,True
+train_cost_matches_scalar_sum,True
+train_gradient_matches_scalar_sums,True
+train_MSE_equals_2J,True
+"train_finite_difference_[0.0, 0.0]",True
+"train_finite_difference_[450.0, -10.0]",True
+"train_finite_difference_[470.0, 5.0]",True
+invalid_input_rejected_1,True
+invalid_input_rejected_2,True
+invalid_input_rejected_3,True
+invalid_input_rejected_4,True
+shared_inputs_unchanged,True

@@ -1,0 +1,40 @@
+{
+  "data_version": "TV2_shared_v1",
+  "n_train": 7622,
+  "n_test": 1905,
+  "normal_matrix_per_sample": [
+    [
+      1.0,
+      -1.3890168935745858e-16
+    ],
+    [
+      -1.3890168935745858e-16,
+      0.9999999999999999
+    ]
+  ],
+  "normal_rhs_per_sample": [
+    454.38087116242446,
+    -16.150470170582203
+  ],
+  "theta_scaled": [
+    454.38087116242446,
+    -16.150470170582143
+  ],
+  "theta_raw": [
+    496.9779848771633,
+    -2.169684135041105
+  ],
+  "raw_covariance_solution": [
+    496.97798487716335,
+    -2.1696841350411025
+  ],
+  "gd_iterations": 190,
+  "gd_theta_minus_analytical": [
+    -9.193836945087241e-07,
+    3.267850701149655e-08
+  ],
+  "gd_parameter_l2_difference": 9.199642724307349e-07,
+  "absolute_J_train_difference": 4.263256414560601e-13,
+  "max_prediction_difference_tolerance_MW": 0.001,
+  "verification": "PASS"
+}
